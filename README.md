@@ -1,16 +1,16 @@
 # BLOG POST CODES
 
-This repository is for code featured on my technical Blog.
-
-### Blog Link : https://medium.com/@daisykkirui
+This repository is for code featured on [My Blog](https://medium.com/@daisykkirui)
+This repository has different files allocated to diffferent articles aimed at teaching and explaining coding concepts. 
 
 Feel free to read through and if you find the articles helpful, like comment and share them. 
  
-This repository has different files allocated to diffferent articles aimed at teaching and explaining coding concepts. 
+### GUIDE:
 
-## GUIDE:
+#### FILE NAME ON REPOSITORY : ARTICLE        
 
-## FILE NAME ON REPOSITORY : SPECIFIC ARTICLE        
+[Basic Html](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/basic%20HTML) : [Article](https://medium.com/@daisykkirui/learning-web-development-online-93058b6fcdc8)
 
-1. **Basic HTML and CSS**:  https://medium.com/@daisykkirui/learning-web-development-online-93058b6fcdc8 
-2. **JavaScript Cheatsheet**: https://medium.com/@daisykkirui/javascript-in-a-nutshell-669dab5b6e78
+[JavaScript Cheatsheet](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/JavaScriptCheatsheet) : [Article](https://medium.com/@daisykkirui/javascript-in-a-nutshell-669dab5b6e78)
+
+[Oh-Clock](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/oh-clock) : [Article](https://medium.com/@daisykkirui/building-a-real-time-clock-using-html-css-and-javascript-594f4763ff10)
