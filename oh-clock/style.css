@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: rgba(85, 17, 55, 0.712);
+}
+.myclock {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    align-self: center;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration-color: azure;
+    color: white;
+    background-color: rgba(85, 17, 55, 0.749);
+    box-shadow: -4px -5px 50px 10px white;
+    transform: translate(-50%);  
+}
