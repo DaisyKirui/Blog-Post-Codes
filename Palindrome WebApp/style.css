@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(113, 113, 193);
+    color: white;
+    padding-left: 20%;
+    padding-top: 7%;
+    align-items: center;
+
+}
+
+#parent {
+    background-color: black;
+    border: white 3px solid;
+    display: block;
+    padding: 100px;
+    width: 50%;
+    align-self: center;
+}
+
+#header {
+    text-align: center;
+}
+
+#enter-palindrome {
+    padding-left: 20%;
+}
+
+input {
+    height: 10%;
+    
+}
+
+button {
+    align-self: center;
+}
+
+text {
+    padding-left: 20%;
+    margin-top: 30%;
+    color: rgb(113, 113, 193);
+    font-size: larger;
+}
