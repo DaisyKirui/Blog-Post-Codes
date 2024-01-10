@@ -14,3 +14,5 @@ Feel free to read through and if you find the articles helpful, like comment and
 [JavaScript Cheatsheet](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/JavaScriptCheatsheet) : [Article](https://medium.com/@daisykkirui/javascript-in-a-nutshell-669dab5b6e78)
 
 [Oh-Clock](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/oh-clock) : [Article](https://medium.com/@daisykkirui/building-a-real-time-clock-using-html-css-and-javascript-594f4763ff10)
+
+[Palindrome Web Application](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/Palindrome%20WebApp) : Article
