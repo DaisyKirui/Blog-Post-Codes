@@ -15,4 +15,4 @@ Feel free to read through and if you find the articles helpful, like comment and
 
 [Oh-Clock](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/oh-clock) : [Article](https://medium.com/@daisykkirui/building-a-real-time-clock-using-html-css-and-javascript-594f4763ff10)
 
-[Palindrome Web Application](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/Palindrome%20WebApp) : Article
+[Palindrome Web Application](https://github.com/DaisyKirui/Blog-Post-Codes/tree/main/Palindrome%20WebApp) : [Article](https://medium.com/@daisykirui/building-a-palindrome-checker-web-application-db9ab135ba9f)
