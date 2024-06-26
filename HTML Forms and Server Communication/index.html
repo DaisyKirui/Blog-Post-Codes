@@ -6,43 +6,57 @@
         <link href="./style.css" rel="stylesheet">
     </head>
 
+<!--
+    When a user enters data in a website, an HTML form submitts and HTTP request containing the data to the server. 
+    define forms using the HTML form tags. 
+    Action - optional form attribute
+    Actions specifiy the url or path, the form should submitt the request. When the action isn't specified, it submitts request to the current page. 
+    Methods - specifiy the HTTP methods to be used; GET and POST
+    GET - retrivese info from server
+    POST - sends data to the server
+    
+-->
+
     <body>
         <div id="form-one">
-            <div class="form-headers"><span>Form Type One: Check Boxes</span></div>
-            <div>
-                <input type="checkbox" name="dog" value="dog"/>
-                <label for="dog">I own a dog</label><br>
-                <input type="checkbox" name="cat" value="cat"/>
-                <label for="cat">I own a cat</label>
-            </div>
-            <div id="text-area">
-                <div><span>Form Type One</span></div>
-                <div>
-                    <input type="text" name="username">
-                    <textarea name="multiline" rows="5"></textarea>
-                    
-                </div>   
-            </div>
-            <div id="input-types">
-                <div><span>Other input types</span></div>
-                <div>
-                    
-                </div>
-    
-            </div>
-        </div>
-
-        <div id="form-two">
-            <div class="form-headers"><span>Form Type Two: Forms</span></div>
-            <div>
+            <div class="formheaders" id="text-area">
+                <div><span>Form Type One: Forms</span></div>   
                 <form action="/register" method="POST">
                     <label for="username">Username:</label><br>
                     <input type="text" name="username">
+                    <!--the "type" attribute creates the text box-->
 
                     <label for="password">Password:</label><br>
-                    <input type="password"/>
+                    <input type="password"/> <!--for the password to be masked-->
                     <input type="submit"/>
-                </form> 
+                </form>    
+            </div>
+
+            <div id="text-area">
+                <input type="text" name="username">
+                <textarea name="multiline" rows="5"></textarea>        
+            </div>   
+
+            <div id="input-types">
+                <div><span>Other input types</span></div>
+                <input type="number" name="age"/>
+                <input type="email" name="email"/>
+                <input type="file" name="file"/>
+
+            </div>
+        </div>
+  
+
+        <div id="form-two">
+            <div>
+                <div class="form-headers"><span>Form Type Two: Check Boxes</span></div>
+                <div>
+                    <input type="checkbox" name="dog" value="dog"/>
+                    <label for="dog">I own a dog</label><br>
+                    <input type="checkbox" name="cat" value="cat"/>
+                    <label for="cat">I own a cat</label>
+                </div>
+                
             </div>
         </div>
 
