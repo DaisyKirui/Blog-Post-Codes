@@ -8,58 +8,63 @@
 
     <body>
         <div id="form-one">
-            <div><span>Form Type One</span></div>
+            <div class="form-headers"><span>Form Type One: Check Boxes</span></div>
             <div>
                 <input type="checkbox" name="dog" value="dog"/>
                 <label for="dog">I own a dog</label><br>
                 <input type="checkbox" name="cat" value="cat"/>
                 <label for="cat">I own a cat</label>
             </div>
-
-
+            <div id="text-area">
+                <div><span>Form Type One</span></div>
+                <div>
+                    <input type="text" name="username">
+                    <textarea name="multiline" rows="5"></textarea>
+                    
+                </div>   
+            </div>
+            <div id="input-types">
+                <div><span>Other input types</span></div>
+                <div>
+                    
+                </div>
+    
+            </div>
         </div>
 
         <div id="form-two">
-            <div><span>Form Type One</span></div>
+            <div class="form-headers"><span>Form Type Two: Forms</span></div>
             <div>
+                <form action="/register" method="POST">
+                    <label for="username">Username:</label><br>
+                    <input type="text" name="username">
 
+                    <label for="password">Password:</label><br>
+                    <input type="password"/>
+                    <input type="submit"/>
+                </form> 
             </div>
-
         </div>
 
         <div id="form-three">
-            <div><span>Form Type One</span></div>
+            <div class="form-headers"><span>Form Type Three: Radio Buttons</span></div>
             <div>
-                
+                <input type="radio" name="right" value="Right"/>
+                <label for="right">I am right-handed</label><br>
+                <input type="radio" name="left" value="Left"/>
+                <label for="left">I am left-handed</label>
             </div>           
-
         </div>
 
         <div id="form-four">
-            <div><span>Form Type One</span></div>
+            <div class="form-headers"><span>Form Type Four: Drop-Down List</span></div>
             <div>
-                
+                <select name="food">
+                    <option value="chocolate">Chocolate</option>
+                    <option value="ice_cream">Ice Cream</option>
+                </select> 
             </div>
-
-        </div>
-
-        <div id="form-five">
-            <div><span>Form Type One</span></div>
-            <div>
-                
-            </div>
-
-        </div>
-
-        <div id="form-six">
-            <div><span>Form Type One</span></div>
-            <div>
-                
-            </div>
-
         </div>
     
     </body>
-
-
 </html>
