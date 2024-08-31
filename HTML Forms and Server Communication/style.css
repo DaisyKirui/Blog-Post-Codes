@@ -1,4 +1,6 @@
 *{
     border: 1px red solid;
     display: grid;
+    padding: 2px;
+    margin: 2px;
 }
